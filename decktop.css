@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.first-mainbar{
+    max-width: 100%;
+    height: 550px;
+    background-color: #e7f7f2;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 5px gray;
+    display: flex;
+    justify-content: space-between;
+}
+.header-and-all-manu{
+    width: 70%;
+}
+header{
+    position: relative;
+    z-index: 60;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.name-logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+#logo-icon{
+    font-size: 18px;
+    color: #f3b124;
+}
+.search-bar{
+    display: flex;
+    position: relative;
+}
+.search-bar-input{
+    width: 300px;
+    border-radius: 50px;
+    font-size: 18px;
+    height: 35px;
+    border: none;
+    outline: none;
+    box-shadow: -2px 2px 5px gray;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+::placeholder{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+.icon-div{
+    width: 25px;
+    height: 25px;
+    background-color: #f3b124;
+    position: absolute;
+    margin: 5px;
+    border-radius: 50px;
+}
+#seach-icon{
+    position: absolute;
+    font-size: 16px;
+    transform: rotate(90deg);
+    margin: -5px -8px;
+}
+.header-manu{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    padding: 10px 0;
+}
+.header-manu > ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+.header-manu > ul > li{
+    margin: 0px 0px;
+}
+.header-manu > ul > li > a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.first-main-div{
+    margin-top: 30px;
+    position: relative;
+
+}
+.first-main-div-inside{
+    position: absolute;
+    margin-left: 150px;
+    
+}
+.text1{
+    width: 400px;
+    line-height: 40px;
+}
+.text2{
+    width: 340px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.button-and-span{
+    margin-top: 20px;
+    position: relative;
+    width: 500px;
+}
+.leran-more{
+    padding: 10px 40px;
+    border: none;
+    background-color: #f3b124;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+.Watch-video{
+    border: none;
+    color: #f3b124;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    margin: -3px 100px;
+    width: 200px;
+}
+#youtube-icon0{
+    margin: -12px 40px;
+    position: absolute;
+    color: red;
+    font-size: 45px;
+}
+
+.img-one{    
+    max-width: 30%;
+    position: relative;
+    z-index: 50;
+}
+.img-box{
+    width: 450px;
+    height: 400px;
+    background:url(img/373074966_703940628218734_2855553103229828753_n.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -11px 2px;
+}
+@media (max-width:1500px) {
+    .img-box{
+        margin: -11px -440px;
+    }
+    .sch-manuber-inside{
+        width: 700px;
+    }
+}
+
+.sch-manubar{
+    width: 100%;
+    margin-top: -80px;
+}
+.sch-manuber-inside{
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    display: flex;
+    background-color: white;
+    width: 950px;
+    margin: 0 auto;
+    box-shadow: -0px 0px 2px gray;
+}
+.planning-box{
+    width: 300px;
+    text-align: start;
+    position: relative;
+    height: 160px;
+}
+.smart-p{
+    font-size: 13px;
+}
+.smart-h1{
+    font-size: 20px;
+    color: red;
+}
+.smarts-h1{
+    font-size: 20px;
+    color: #f3b124;
+}
+.smartss-h1{
+    color: gray;
+    font-size: 20px;
+}
+#smart-icon{
+    font-size: 35px;
+    color: #696969;
+    width: 200px;
+    text-align: center;
+}
+#creative-icon{
+    font-size: 35px;
+    color: #000000;
+    width: 200px;
+    text-align: center;
+}
+#higher-icon{
+    font-size: 35px;
+    color: #f3b124;
+    width: 200px;
+    text-align: center;
+}
+#smart-last-icon{
+    font-size: 25px;
+    color: #000000;
+    width: 200px;
+    margin-top: 0px;
+}
+.last-icon{
+    box-shadow: 0px 0px 5px gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 5px;
+}
